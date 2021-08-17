@@ -1,0 +1,4 @@
+[
+  { "keys": ["ctrl+alt+z"], "command": "insert_snippet", "args": {"name": "Packages/User/jsfunc.sublime-snippet"}},
+  { "keys": ["ctrl+shift+d"], "command": "insert_snippet", "args": {"name": "Packages/User/debugger.sublime-snippet"}}
+]
