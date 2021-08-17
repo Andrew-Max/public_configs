@@ -70,3 +70,26 @@ sudo apt install imagemagick -y
 # - edit pg_hba.conf
 # git config --global user.email <your email here>
 # git config --global user.name <your name here>
+# make terminal login shell
+# > file bar in terminal > edit > preferences > colors : uncheck "use transparency from system theme"
+# > file bar in terminal > edit > preferences > command : check "run as loging shell"
+
+
+
+#=======================================
+# Setting Up Virtual Window Hotkeys
+#=======================================
+# Open the finder and search for and open `keyboard`
+# go to the `shortcuts` tab
+# Go to the navigation sub tab
+
+# change "move window one workspace up" to `shift+ctrl+alt+up`
+# change "move window one workspace up" to `shift+ctrl+alt+up`
+# change "switch to worspace above" to `ctrl+alt+up`
+# change "switch to worspace below" to `ctrl+alt+down`
+
+
+
+#=======================================
+# Optional
+#=======================================
