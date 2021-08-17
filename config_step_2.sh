@@ -12,8 +12,6 @@ gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 2
 #=======================================
 git config --global alias.co checkout
 git config --global alias.stat status
-git config --global user.email <your email here>
-git config --global user.name <your name here>
 
 
 #=======================================
@@ -69,3 +67,5 @@ sudo apt install imagemagick -y
 # - sudo chown -R <user>:<user> ./local
 # - npm install --global yarn
 # - edit pg_hba.conf
+# git config --global user.email <your email here>
+# git config --global user.name <your name here>
