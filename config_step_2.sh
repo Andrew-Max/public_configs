@@ -19,7 +19,9 @@ git config --global alias.stat status
 #=======================================
 rm ~/.bashrc
 cp -r ./.bashrc ~/.bashrc
-touch ~/opt/ gitignore_global
+
+mkdir ~/opt
+touch ~/opt/gitignore_global
 echo "**/notes.txt" > ~/opt/gitignore_global
 echo "**/application.yml" >> ~/opt/gitignore_global
 git config --global core.excludesfile ~/opt/gitignore_global
@@ -52,7 +54,6 @@ sudo apt install postgresql postgresql-contrib -y
 sudo apt install default-libmysqlclient-dev -y
 sudo apt-get install mysql-server -y
 
-mkdir ~/opt
 cd ~/opt
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
