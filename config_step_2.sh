@@ -63,6 +63,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 sudo apt install imagemagick -y
 
+sudo apt install chromium-driver -y
 #=======================================
 # Manual Todos
 #=======================================
