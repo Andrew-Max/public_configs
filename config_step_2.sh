@@ -42,8 +42,8 @@ sudo apt install curl -y
 # Set up RVM
 #=======================================
 gpg --keyserver hkp://pgp.mit.edu --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-\curl -sSL https://get.rvm.io | bash -s stable --ruby
-\source ~/.rvm/scripts/rvm
+curl -sSL https://get.rvm.io | bash -s stable --ruby
+source ~/.rvm/scripts/rvm
 
 #=======================================
 # Set up Other Dev Dependencies
@@ -64,36 +64,3 @@ sudo apt install ./google-chrome-stable_current_amd64.deb -y
 sudo apt install imagemagick -y
 
 sudo apt install chromium-driver -y
-#=======================================
-# Manual Todos
-#=======================================
-# - key bindings
-# - sublime config
-# - sudo chown -R <user>:<user> ./local
-# - npm install --global yarn
-# - edit pg_hba.conf
-# git config --global user.email <your email here>
-# git config --global user.name <your name here>
-# make terminal login shell
-# > file bar in terminal > edit > preferences > colors : uncheck "use transparency from system theme"
-# > file bar in terminal > edit > preferences > command : check "run as loging shell"
-
-
-
-#=======================================
-# Setting Up Virtual Window Hotkeys
-#=======================================
-# Open the finder and search for and open `keyboard`
-# go to the `shortcuts` tab
-# Go to the navigation sub tab
-
-# change "move window one workspace up" to `shift+ctrl+alt+up`
-# change "move window one workspace up" to `shift+ctrl+alt+up`
-# change "switch to worspace above" to `ctrl+alt+up`
-# change "switch to worspace below" to `ctrl+alt+down`
-
-
-
-#=======================================
-# Optional
-#=======================================
