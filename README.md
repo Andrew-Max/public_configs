@@ -27,7 +27,7 @@ Go back to this directory.
 
 Manual Todos(Mandatory)
 =======================================
-- sudo chown -R <user>:<user> /usr/local
+- `sudo chown -R <user>:<user> /usr/local`
 
 - npm install --global yarn
 
