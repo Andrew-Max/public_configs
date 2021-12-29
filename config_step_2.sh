@@ -26,10 +26,6 @@ echo "**/notes.txt" > ~/opt/gitignore_global
 echo "**/application.yml" >> ~/opt/gitignore_global
 git config --global core.excludesfile ~/opt/gitignore_global
 
-#=======================================
-# Install Curl
-#=======================================
-sudo apt install curl -y
 
 #=======================================
 # Set up RVM
