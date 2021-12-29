@@ -12,7 +12,8 @@ gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 2
 #=======================================
 git config --global alias.co checkout
 git config --global alias.stat status
-
+# git config --global user.email "<your email>"
+# git config --global user.name "<your first name>"
 
 #=======================================
 # Set up Unix User
